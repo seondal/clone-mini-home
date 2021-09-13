@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@1,100&display=swap");
+@font-face {
+  font-family: "GowunBatang-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  /* background-color: white;
+  color: black; */
+
+  background-color: #112031;
+  color: white;
+}
+
+body {
+  font-family: "GownBatang-Regular", serif;
+}
+h1 {
+  /* color: green; */
+  color: lightcoral;
+}
+h2 {
+  /* color: green; */
+  color: lightcoral;
+}
+.gray {
+  font-style: italic;
+  font-family: "Glory", sans-serif;
+}
+h3 {
+  /* color: green; */
+  color: lightskyblue;
+}
+a {
+  font-family: "Glory", sans-serif;
+  /* color: blue; */
+  color: #d4ecdd;
+}
