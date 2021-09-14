@@ -1,0 +1,32 @@
+body {
+  background-color: grey;
+  background-image: url(./images/pattern.png);
+  background-size: 5%;
+}
+
+.bookcover {
+  background-color: #b4d0da;
+  border-radius: 20px;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+.bookdot {
+  border: white dashed;
+  border-radius: 20px;
+
+  margin: 0.8rem auto;
+  height: 96%;
+  width: 98%;
+}
+
+.page {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: 0.8rem auto;
+  height: 96%;
+  width: 98%;
+}
