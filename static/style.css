@@ -24,9 +24,36 @@ body {
 }
 
 .page {
-  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  background-color: #eeeeee;
   border-radius: 20px;
   margin: 0.8rem auto;
   height: 96%;
   width: 98%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.category {
+  display: flex;
+  flex: 0.2;
+  outline: violet solid;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex: 0.05;
+}
+
+.smallpage {
+  display: flex;
+  background-color: white;
+  flex: 1;
+  border-radius: 10px;
 }
