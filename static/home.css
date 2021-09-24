@@ -10,8 +10,9 @@
   flex-direction: column;
   background-color: white;
   flex: 1;
+  height: 100%;
   border-radius: 10px;
-  gap: 50px;
+  gap: 20px;
 }
 
 .list {
@@ -39,4 +40,10 @@
 .title {
   color: #4098c4;
   font-weight: bold;
+}
+
+.miniroom {
+  background-color: black;
+  height: 200px;
+  outline: black;
 }
