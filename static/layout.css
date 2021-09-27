@@ -16,7 +16,54 @@ body {
   background-size: 5%;
 }
 
+/* body {
+  background-color: #a3a3a3;
+  background-image: url("../static/images/pattern.png");
+  background-size: 100px;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+} */
+
 .bookcover {
+  background-color: #b4d1da;
+  border-radius: 9px;
+  border: 1px solid #738186;
+  width: 960px;
+  height: 660px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.bookdot {
+  border-radius: 9px;
+  border: 2px dashed #ffffff;
+  padding: 15px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.page {
+  background-color: #eeeeee;
+  border-radius: 9px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  padding: 15px;
+}
+
+/* .bookcover {
   background-color: #b4d0da;
   border-radius: 20px;
   position: fixed;
@@ -43,7 +90,7 @@ body {
   margin: 0.8rem auto;
   height: 96%;
   width: 98%;
-}
+} */
 
 /*drop down*/
 .dropdown {
@@ -124,4 +171,21 @@ body {
 .menu:hover {
   background-color: white;
   color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex: 0.05;
+}
+
+.smallpage {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  background-color: white;
+  flex: 1;
+  height: 460px;
+  border-radius: 10px;
+  gap: 20px;
 }

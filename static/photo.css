@@ -1,0 +1,23 @@
+.photo-page {
+  padding: 20px;
+  background-color: white;
+  height: 460px;
+  border-radius: 10px;
+  overflow: scroll;
+  width: 600px;
+}
+
+.photo-title {
+  background-color: lightsteelblue;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.photo-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.photo-container > img {
+  width: 100%;
+}

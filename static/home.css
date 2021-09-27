@@ -1,20 +1,3 @@
-.header {
-  display: flex;
-  flex-direction: row;
-  flex: 0.05;
-}
-
-.smallpage {
-  display: flex;
-  padding: 20px;
-  flex-direction: column;
-  background-color: white;
-  flex: 1;
-  height: 100%;
-  border-radius: 10px;
-  gap: 20px;
-}
-
 .list {
   display: flex;
   flex-direction: row;
@@ -44,6 +27,7 @@
 
 .miniroom {
   background-color: black;
-  height: 200px;
   outline: black;
+  width: 50%;
+  margin-top: 10px;
 }
