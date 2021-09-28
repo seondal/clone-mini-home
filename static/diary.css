@@ -1,0 +1,35 @@
+.weekly {
+  display: flex;
+  border: lightsteelblue dashed;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  background-color: whitesmoke;
+}
+
+.diary-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: lightslategrey dashed 0.5px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: mediumpurple;
+}
+
+.hidden-button {
+  color: white;
+  cursor: pointer;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.hidden-button:hover {
+  background-color: mediumslateblue;
+  transition: 800ms ease all;
+}
