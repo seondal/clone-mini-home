@@ -27,9 +27,15 @@ h3 {
   width: fit-content;
   border-radius: 20px;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .hidden-button:hover {
   background-color: mediumslateblue;
   transition: 800ms ease all;
 }
+
+/* .secret-box {
+  display: none;
+  background-image: url(./images/다운로드.gif);
+} */

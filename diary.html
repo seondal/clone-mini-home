@@ -93,11 +93,13 @@
                                 <div>07:00 ~ 08:00 회의</div>
                             </div>
 
-                            <div style="display:flex; align-items:center; justify-content: center; margin-top: 30px;">
-                                <div class="hidden-button">
+                            <div style="display:flex; flex-direction:column; align-items:center; justify-content: center; margin-top: 30px;">
+                                <div class="hidden-button" onclick="getTextFile()">
                                     <i class="fas fa-lock"></i>
                                     이걸 찾다니..
                                 </div>
+                                <div id="secret-content" class="hidden"></div>
+                                <!-- <div id="secret-box"></div> -->
                             </div>
                             
                         </div>
@@ -107,12 +109,30 @@
                             <a href="./photo.html" class="menu">사진첩</a>
                             <a href="./review.html" class="menu">방명록</a>
                         </div>
-                    </div>
-                    
-                </div>
-                
+                    </div>                 
+                </div>          
             </div>
         </div>
     </div>
+    <script>
+        function getTextFile () {
+            var input = document.createElement("input");
+            input.type="file";
+            input.accept="text/plain";
+            input.onchange= function(event) {
+                processFile(event.target.files[0]);
+            };
+            input.click();
+        }
+        function processFile(file) {
+            var reader = new FileReader();
+            reader.readAsText(file, "utf-8");
+
+            reader.onload = function() {
+                document.getElementById("secret-content").innerText = reader.result;
+                // document.getElementById("secret-box").style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>
