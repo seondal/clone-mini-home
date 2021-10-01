@@ -1,2 +1,9 @@
-# html-css-study
- html/css 개념 정리 및 기초 복습 (모각코 한입웹개발-html/css 활동)
+# MiniHome
+
+### ⬇️ Link
+https://seondal.github.io/MiniHome/home.html
+
+<br>
+
+### ⬇️ ReadMe
+https://www.notion.so/MiniHome-2f739d359e594790ba0e0a30d731bd69
